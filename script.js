@@ -13,20 +13,20 @@ do {
 } while (checkValue === false)
 
 const firstNumber = +prompt("Введіть перше число");
-const SecondNumber = +prompt("Введіть друге число");
+const secondNumber = +prompt("Введіть друге число");
 
 switch (operationValue) {
     case "add" : 
-        alert(`${firstNumber} + ${SecondNumber} = ${firstNumber + SecondNumber}` );
+        alert(`${firstNumber} + ${secondNumber} = ${firstNumber + secondNumber}` );
         break;
     case "sub" :
-        alert(`${firstNumber} - ${SecondNumber} = ${firstNumber - SecondNumber}` );
+        alert(`${firstNumber} - ${secondNumber} = ${firstNumber - secondNumber}` );
         break;
     case "mult" :
-        alert(`${firstNumber} * ${SecondNumber} = ${firstNumber * SecondNumber}` );
+        alert(`${firstNumber} * ${secondNumber} = ${firstNumber * secondNumber}` );
         break;
     case "div" :
-        alert(`${firstNumber} / ${SecondNumber} = ${firstNumber / SecondNumber}`);
+        alert(`${firstNumber} / ${secondNumber} = ${firstNumber / secondNumber}`);
         break;
     default :
         alert("Щось пішло не так");  
